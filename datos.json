@@ -1,0 +1,535 @@
+{
+  "_id": {
+    "$oid": "635c16eef6fe9ebefe28c550"
+  },
+  "IdInstiutoOK": "9999",
+  "IdNegocioOK": "9999-9999",
+  "IdOrdenOK": "9999-9999-123456789012",
+  "IdOrdenBK": "342001",
+  "IdTipoOrdenOK": "IdTipoOrdenes-IdPedido",
+  "IdRolOK": "IdTipoRoles-IdCliente",
+  "IdPersonaOK": "9001-706706706706",
+  "IdVendedorOK": "",
+  "estatus": [
+    {
+      "IdTipoEstatusOK": "IdEstatusOrdenes-IdCarrito",
+      "Actual": "N",
+      "Observacion": "",
+      "detail_row": {
+        "Activo": "S",
+        "Borrado": "N",
+        "detail_row_reg": [
+          {
+            "FechaReg": {
+              "$date": "2022-04-04T00:00:00.628Z"
+            },
+            "UsuarioReg": "FIBARRAC"
+          }
+        ]
+      }
+    },
+    {
+      "IdTipoEstatusOK": "IdEstatusOrdenes-IdGenerada",
+      "Actual": "N",
+      "Observacion": "",
+      "detail_row": {
+        "Activo": "S",
+        "Borrado": "N",
+        "detail_row_reg": [
+          {
+            "FechaReg": {
+              "$date": "2022-04-04T00:00:00.628Z"
+            },
+            "UsuarioReg": "FIBARRAC"
+          }
+        ]
+      }
+    },
+    {
+      "IdTipoEstatusOK": "IdEstatusOrdenes-IdPagada",
+      "Actual": "S",
+      "Observacion": "",
+      "detail_row": {
+        "Activo": "S",
+        "Borrado": "N",
+        "detail_row_reg": [
+          {
+            "FechaReg": {
+              "$date": "2022-04-04T00:00:00.628Z"
+            },
+            "UsuarioReg": "FIBARRAC"
+          }
+        ]
+      }
+    }
+  ],
+  "info_ad": [
+    {
+      "IdEtiquetaOK": "",
+      "IdEtiqueta": "IdDesOrden",
+      "Etiqueta": "Descripción",
+      "Valor": "Orden de Venta a Cliente",
+      "IdTipoSeccionOK": "IdSeccionesOrdenes-IdGeneral",
+      "Secuencia": 10,
+      "detail_row": {
+        "Activo": "S",
+        "Borrado": "N",
+        "detail_row_reg": [
+          {
+            "FechaReg": {
+              "$date": "2022-04-30T00:00:00.628Z"
+            },
+            "UsuarioReg": "FIBARRAC"
+          }
+        ]
+      }
+    },
+    {
+      "Etiqueta": "Ultima vez que el Cliente Revisa la Orden",
+      "Valor": "2022-10-28T00:00:00.628Z",
+      "IdSeccionOK": "?-1",
+      "Seccion": "Principal",
+      "Secuencia": 20,
+      "detail_row": {
+        "Activo": "S",
+        "Borrado": "N",
+        "detail_row_reg": [
+          {
+            "FechaReg": {
+              "$date": "2022-04-30T00:00:00.628Z"
+            },
+            "UsuarioReg": "FIBARRAC"
+          }
+        ]
+      }
+    }
+  ],
+  "detalle_ps": [
+    {
+      "IdNegocioOK": "9001-1101",
+      "IdProdServOK": "9001-000000000001",
+      "IdPresentaOK": "9001-000000000001-000000001",
+      "DesPresentaPS": "LapTop HP ZBOOK Firefly G8, Core i7, Full HD - Empresarial Gris Oxford - 500GB - 16RAM",
+      "Cantidad": 5,
+      "PrecioUniSinIVA": 250,
+      "PrecioUniConIVA": 287.5,
+      "PorcentajeIVA": 15,
+      "MontoUniIVA": 37.5,
+      "SubTotalSinIVA": 1250,
+      "SubTotalConIVA": 1437.5,
+      "IdClienteOK": "",
+      "estatus": [
+        {
+          "IdTipoEstatusOK": "IdTipoEstatusOrdenDetalle-IdCarrito",
+          "Actual": "S",
+          "Observacion": "",
+          "detail_row": {
+            "Activo": "S",
+            "Borrado": "N",
+            "detail_row_reg": [
+              {
+                "FechaReg": {
+                  "$date": "2022-04-04T00:00:00.628Z"
+                },
+                "UsuarioReg": "FIBARRAC"
+              }
+            ]
+          }
+        }
+      ],
+      "info_ad": [
+        {
+          "IdEtiquetaOK": "",
+          "IdEtiqueta": "IdFechaEntrega",
+          "Etiqueta": "Fecha de Entrega:",
+          "Valor": "10-11-2022",
+          "IdTipoSeccionOK": "IdTipoSeccionesOrdenesDetalle-IdFechas",
+          "Seccion": "Principal",
+          "Secuencia": 10,
+          "detail_row": {
+            "Activo": "S",
+            "Borrado": "N",
+            "detail_row_reg": [
+              {
+                "FechaReg": "2022-04-30T00:00:00.628Z",
+                "UsuarioReg": "FIBARRAC"
+              }
+            ]
+          }
+        }
+      ],
+      "paquete": [
+        {
+          "IdPresentaOK": "",
+          "DesPresenta": "Mouse HP inalambrico",
+          "Cantidad": 1,
+          "Precio": 246.1,
+          "detail_row": {
+            "Activo": "S",
+            "Borrado": "N",
+            "detail_row_reg": [
+              {
+                "FechaReg": {
+                  "$date": "2023-12-15T00:16:21.627Z"
+                },
+                "UsuarioReg": "FIBARRAC"
+              }
+            ]
+          }
+        },
+        {
+          "IdPresentaOK": "1001-c64dd3918844-ae727ec4",
+          "DesPresenta": "Control Inalámbrico Xbox Edición Especial 20 Aniversario Color Negro",
+          "Cantidad": 1,
+          "Precio": 457.33,
+          "detail_row": {
+            "Activo": "S",
+            "Borrado": "N",
+            "detail_row_reg": [
+              {
+                "FechaReg": {
+                  "$date": "2023-12-15T00:16:21.627Z"
+                },
+                "UsuarioReg": "FIBARRAC"
+              }
+            ]
+          }
+        },
+        {
+          "IdPresentaOK": "",
+          "DesPresenta": "Mouse Pad Rojo Slim",
+          "Cantidad": 1,
+          "Precio": 193.99,
+          "detail_row": {
+            "Activo": "S",
+            "Borrado": "N",
+            "detail_row_reg": [
+              {
+                "FechaReg": {
+                  "$date": "2023-12-15T00:16:21.627Z"
+                },
+                "UsuarioReg": "FIBARRAC"
+              }
+            ]
+          }
+        }
+      ],
+      "detail_row": {
+        "Activo": "S",
+        "Borrado": "N",
+        "detail_row_reg": [
+          {
+            "FechaReg": {
+              "$date": "2022-04-30T00:00:00.628Z"
+            },
+            "UsuarioReg": "FIBARRAC"
+          }
+        ]
+      }
+    },
+    {
+      "IdNegocioOK": "9001-1101",
+      "IdProdServOK": "9001-000000000002",
+      "IdPresentaOK": "9001-000000000002-000000001",
+      "DesPresentaPS": "Celular Xiaomi POCO m3, HD - 128 GB",
+      "Cantidad": 1,
+      "PrecioUniSinIVA": 120,
+      "PrecioUniConIVA": 138,
+      "PorcentajeIVA": 15,
+      "MontoUniIVA": 18,
+      "SubTotalSinIVA": 120,
+      "SubTotalConIVA": 138,
+      "IdClienteOK": "",
+      "estatus": [
+        {
+          "IdEstatusOK": "?-1",
+          "Estatus": "Carrito",
+          "Actual": "S",
+          "Observacion": "",
+          "detail_row": {
+            "Activo": "S",
+            "Borrado": "N",
+            "detail_row_reg": [
+              {
+                "FechaReg": {
+                  "$date": "2022-04-04T00:00:00.628Z"
+                },
+                "UsuarioReg": "FIBARRAC"
+              }
+            ]
+          },
+          "_id": {
+            "$oid": "63c20c0621208c6b1a254e51"
+          }
+        }
+      ],
+      "info_ad": [
+        {}
+      ],
+      "paquete": [],
+      "detail_row": {
+        "Activo": "S",
+        "Borrado": "N",
+        "detail_row_reg": [
+          {
+            "FechaReg": {
+              "$date": "2022-04-30T00:00:00.628Z"
+            },
+            "UsuarioReg": "FIBARRAC"
+          }
+        ]
+      }
+    },
+    {
+      "IdNegocioOK": "9002-1101",
+      "IdProdServOK": "9002-000000000002",
+      "IdPresentaPSBK": "9002-000000000002-000000001",
+      "DesPresentaPS": "Pluma con camara espia - Full HD 1024 px",
+      "Cantidad": 2,
+      "PrecioUniSinIVA": 2000,
+      "PrecioUniConIVA": 2300,
+      "PorcentajeIVA": 15,
+      "MontoUniIVA": 300,
+      "SubTotalSinIVA": 4000,
+      "SubTotalConIVA": 4600,
+      "IdClienteOK": "",
+      "estatus": [
+        {
+          "IdEstatusOK": "?-1",
+          "Estatus": "Carrito",
+          "Actual": "S",
+          "Observacion": "",
+          "detail_row": {
+            "Activo": "S",
+            "Borrado": "N",
+            "detail_row_reg": [
+              {
+                "FechaReg": {
+                  "$date": "2022-04-04T00:00:00.628Z"
+                },
+                "UsuarioReg": "FIBARRAC"
+              }
+            ]
+          },
+          "_id": {
+            "$oid": "63c20c0621208c6b1a254e53"
+          }
+        }
+      ],
+      "info_ad": [
+        {
+          "IdEtiquetaOK": "IDFECHAENTREGA",
+          "Etiqueta": "Fecha de Entrega",
+          "Valor": "10-11-2022",
+          "IdSeccionOK": "?-1",
+          "Seccion": "Principal",
+          "Secuencia": 10,
+          "detail_row": {
+            "Activo": "S",
+            "Borrado": "N",
+            "detail_row_reg": [
+              {
+                "FechaReg": "2022-04-30T00:00:00.628Z",
+                "UsuarioReg": "FIBARRAC"
+              }
+            ]
+          }
+        }
+      ],
+      "paquete": [],
+      "detail_row": {
+        "Activo": "S",
+        "Borrado": "N",
+        "detail_row_reg": [
+          {
+            "FechaReg": {
+              "$date": "2022-04-30T00:00:00.628Z"
+            },
+            "UsuarioReg": "Sergio"
+          }
+        ]
+      }
+    },
+    {
+      "IdNegocioOK": "9002-1101",
+      "IdProdServOK": "9002-000000000001",
+      "IdPresentaOK": "9002-000000000001-000000001",
+      "DesPresentaPS": "Monitor Yeyian Led - Base giratoria color plata",
+      "Cantidad": 2,
+      "PrecioUniSinIVA": 320.33,
+      "PrecioUniConIVA": 350.44,
+      "PorcentajeIVA": 15,
+      "MontoUniIVA": 30.1,
+      "SubTotalSinIVA": 640.66,
+      "SubTotalConIVA": 700.88,
+      "IdClienteOK": "",
+      "estatus": [
+        {
+          "IdEstatusOK": "?-1",
+          "Estatus": "Guardado",
+          "Actual": "S",
+          "Observacion": "",
+          "detail_row": {
+            "Activo": "S",
+            "Borrado": "N",
+            "detail_row_reg": [
+              {
+                "FechaReg": {
+                  "$date": "2022-04-04T00:00:00.628Z"
+                },
+                "UsuarioReg": "FIBARRAC"
+              }
+            ]
+          },
+          "_id": {
+            "$oid": "63c20c0621208c6b1a254e55"
+          }
+        }
+      ],
+      "info_ad": [
+        {}
+      ],
+      "paquete": [],
+      "detail_row": {
+        "Activo": "S",
+        "Borrado": "N",
+        "detail_row_reg": [
+          {
+            "FechaReg": {
+              "$date": "2022-04-30T00:00:00.628Z"
+            },
+            "UsuarioReg": "Sergio"
+          }
+        ]
+      }
+    }
+  ],
+  "forma_pago": [
+    {
+      "IdTipoPagoOk": "IdFormaPago-IdCredito",
+      "MontoPagado": 10000,
+      "MontoRecibido": 10000,
+      "MontoDevuelto": 0,
+      "info_ad": [
+        {
+          "Etiqueta": "Numero de Tarjeta",
+          "Valor": "5555-5555-5555-5555",
+          "IdSeccionOK": "?-1",
+          "Seccion": "Principal",
+          "Secuencia": 10,
+          "detail_row": {
+            "Activo": "S",
+            "Borrado": "N",
+            "detail_row_reg": [
+              {
+                "FechaReg": {
+                  "$date": "2022-04-30T00:00:00.628Z"
+                },
+                "UsuarioReg": "FIBARRAC"
+              }
+            ]
+          },
+          "_id": {
+            "$oid": "63c20c0621208c6b1a254e57"
+          }
+        },
+        {
+          "Etiqueta": "Nombre Cliente en Tarjeta",
+          "Valor": "ALEJANDRA PEREZ C",
+          "IdSeccionOK": "?-1",
+          "Seccion": "Principal",
+          "Secuencia": 20,
+          "detail_row": {
+            "Activo": "S",
+            "Borrado": "N",
+            "detail_row_reg": [
+              {
+                "FechaReg": {
+                  "$date": "2022-04-30T00:00:00.628Z"
+                },
+                "UsuarioReg": "FIBARRAC"
+              }
+            ]
+          },
+          "_id": {
+            "$oid": "63c20c0621208c6b1a254e58"
+          }
+        },
+        {
+          "Etiqueta": "MES-AÑO",
+          "Valor": "11-2024",
+          "IdSeccionOK": "?-1",
+          "Seccion": "Principal",
+          "Secuencia": 20,
+          "detail_row": {
+            "Activo": "S",
+            "Borrado": "N",
+            "detail_row_reg": [
+              {
+                "FechaReg": {
+                  "$date": "2022-04-30T00:00:00.628Z"
+                },
+                "UsuarioReg": "FIBARRAC"
+              }
+            ]
+          },
+          "_id": {
+            "$oid": "63c20c0621208c6b1a254e59"
+          }
+        },
+        {
+          "Etiqueta": "Digito",
+          "Valor": "889",
+          "IdSeccionOK": "?-1",
+          "Seccion": "Principal",
+          "Secuencia": 20,
+          "detail_row": {
+            "Activo": "S",
+            "Borrado": "N",
+            "detail_row_reg": [
+              {
+                "FechaReg": {
+                  "$date": "2022-04-30T00:00:00.628Z"
+                },
+                "UsuarioReg": "FIBARRAC"
+              }
+            ]
+          },
+          "_id": {
+            "$oid": "63c20c0621208c6b1a254e5a"
+          }
+        }
+      ]
+    },
+    {
+      "IdTipoPagoOk": "IdFormaPago-IdContado?",
+      "MontoPagado": 12500,
+      "MontoRecibido": 13000,
+      "MontoDevuelto": 500,
+      "info_ad": [
+        {
+          "detail_row": {
+            "Activo": "S",
+            "Borrado": "N",
+            "detail_row_reg": []
+          },
+          "_id": {
+            "$oid": "63c20c0621208c6b1a254e5c"
+          }
+        }
+      ]
+    }
+  ],
+  "detail_row": {
+    "Activo": "S",
+    "Borrado": "N",
+    "detail_row_reg": [
+      {
+        "FechaReg": {
+          "$date": "2022-04-30T00:00:00.628Z"
+        },
+        "UsuarioReg": "FIBARRAC"
+      }
+    ]
+  }
+}
