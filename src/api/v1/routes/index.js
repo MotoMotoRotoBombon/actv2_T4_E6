@@ -1,14 +1,17 @@
 import { Router } from 'express';
 import config from '../../../config/config';
-// Import Routes
-import ordersRoutes from './OrdersRoutes';
+// Importar rutas
+import shippingRoutes from './ShippingRoutes';  
+
 const routerAPI = (app) => {
   const router = Router();
   const api = config.API_URL;
   app.use(api, router);
-  // Routes
-  router.use('/orders', ordersRoutes);
-  // Return Router
+
+  // Rutas
+  router.use('/shippings', shippingRoutes);  // Rutas para Shipping
+  // Retornar Router
   return router;
 };
+
 module.exports = routerAPI;

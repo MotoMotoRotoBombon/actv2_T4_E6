@@ -1,4 +1,4 @@
-@api = http://localhost:3050/api/v1/prod-serv
+@api = http://localhost:3020/api/v1/shippings
 #@api = http://187.229.22.99:8010/api/v1/prod-serv
 ### GET
 GET {{api}}
